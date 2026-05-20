@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "sheepish_api",
+  "version": "${version}",
+  "name": "Sheepish's API",
+  "description": "A helpful API for parts of mods made by Sheepish mainly serving as elements to solve issues which should be in vanilla",
+  "authors": [
+    "ItsSheepish"
+  ],
+  "contact": {
+  },
+  "license": "MIT",
+  "icon": "assets/sheepish_api/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "its.sheepish.API"
+    ],
+    "fabric-datagen": [
+      "its.sheepish.APIDataGenerator"
+    ],
+    "emi": [
+      "its.sheepish.sheepish_api.compat.emi.SheepishEmiPlugin"
+    ]
+  },
+  "mixins": [
+    "sheepish_api.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

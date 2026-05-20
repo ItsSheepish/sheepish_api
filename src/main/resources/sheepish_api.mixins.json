@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "its.sheepish.sheepish_api.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"InventoryTriggerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
