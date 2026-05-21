@@ -17,11 +17,6 @@ repositories {
     // TerraformersMC Maven (For EMI)
     maven { url = "https://maven.terraformersmc.com/" }
 
-    // Mezz's Maven (For JEI)
-    maven {
-        name = "Progwml6 maven"
-        url = "https://maven.blamejared.com/"
-    }
 }
 
 fabricApi {
