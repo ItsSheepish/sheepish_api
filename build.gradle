@@ -72,13 +72,9 @@ jar {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            // Tell Maven to use the remapped JAR instead of the standard one
+            // This automatically includes both the remapped production JAR
+            // AND the remapped sources JAR because of java { withSourcesJar() }
             from components.java
-
-            // This ensures the sources jar is also published
-            artifact(tasks.remapSourcesJar) {
-                classifier = "sources"
-            }
         }
     }
 }
