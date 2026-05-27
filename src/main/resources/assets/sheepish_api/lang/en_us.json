@@ -1,5 +1,6 @@
 {
   "tooltip.sheep_api.recipe.mirrorable": "Mirrorable Recipe",
   "tooltip.sheep_api.recipe.vertical_mirror": "Vertically",
-  "tooltip.sheep_api.recipe.horizontal_mirror": "Horizontally"
+  "tooltip.sheep_api.recipe.horizontal_mirror": "Horizontally",
+  "tooltip.sheep_api.recipe.shapeless_ingredient": "Shapeless Ingredient"
 }
